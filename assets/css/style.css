@@ -1,0 +1,142 @@
+html {
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+#headline h1 {
+    font-size: 49px;
+}
+
+#directionsBox h3 {
+	font-size: 41px;
+}
+
+.wrapper {
+	background-image: url("../images/GreenBGWatermarked.png");
+	filter: alpha(Opacity=90);
+	width: 100%;
+	padding-top: 46px;
+	padding-bottom: 51px;
+	padding-left: 104px;
+	padding-right: 108px;
+	/* border-radius: 34px; */
+}
+
+.jumbotron {
+	border-radius: 34px;
+}
+
+
+#headline {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: rgba(189, 243, 250, 0.8);
+	text-align: center;
+	font-size: 30px;
+	justify-content: center;
+	border: solid 2px floralwhite;
+	border-radius: 10px;
+	/* width: 84%; */
+	margin-bottom: 14px;
+	margin-top: 5px;
+}
+
+h2 {
+	border-radius: 10px;
+	padding: 5px 0;
+	font-weight: 900;
+}
+
+#directions {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 20px;
+	color: black;
+	/* padding-left: 30px; */
+	justify-content: center;
+}
+
+/*#p1 {
+	background-image: url("../images/glassSlide.png");
+}*/
+
+#directionsBox {
+	background-color: rgba(59, 201, 244, 0.88);
+	padding: 5px 20px;
+	justify-content: center;
+	border-radius: 10px;
+	border: solid 2px floralwhite;
+}
+
+#gemLine {
+	display: inline;
+
+}
+#gembox {
+	display: inline-flex;
+	box-sizing: border-box;
+	background-color: hsla(135, 18%, 95%, 0.56);
+	width: 100%;
+	/* box-sizing: border-box; */
+	/* padding-left: 100px; */
+	justify-content: center;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	height: 150px;
+}
+
+#scoreBox {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: rgba(189, 243, 250, 0.8);
+	/* text-align: center; */
+	font-size: 24px;
+	/* justify-content: flex-start; */
+	border: solid 2px floralwhite;
+	border-radius: 10px;
+	padding-left: 20px;
+	width: 17%;
+	margin: 5px 0;
+}
+
+#random {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: rgba(189, 243, 250, 0.8);
+	/* text-align: center; */
+	font-size: 24px;
+	/* justify-content: flex-start; */
+	border: solid 2px floralwhite;
+	border-radius: 10px;
+	padding-left: 20px;
+	width: 17%;
+	margin: 5px 0;
+}
+
+#counterBox {
+	font-family: 'Julius Sans One', sans-serif;
+	background-color: rgba(189, 243, 250, 0.8);
+	/* text-align: center; */
+	font-size: 24px;
+	/* justify-content: flex-start; */
+	border: solid 2px floralwhite;
+	border-radius: 10px;
+	padding-left: 20px;
+	width: 17%;
+	margin: 5px 0;
+}
+
+
+
+#red img {/*	float: left;
+*/height: 158px;width: 115px;/* background-color: pink; */padding-top: 16px;}
+
+#blue img {/*	float: left;
+*/height: 145px;padding-top: 22px;padding-left: 9px;/* margin-bottom: -67px; *//* background-color: beige; */}
+
+#yellow img {
+	height: 170px;
+	/* background-color: gainsboro; */
+	padding-top: 8px;
+}
+
+#green img {/*	float: left;
+*/height: 140px;width: 108px;/* background-color: cornsilk; */padding-top: 26px;padding-left: -20px;}

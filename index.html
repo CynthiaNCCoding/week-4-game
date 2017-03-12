@@ -1,0 +1,93 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="wrapper">
+
+
+
+  <div class="jumbotron">
+
+		<div class="row">
+			<div id="headline"><h1>Crystal Collector</h1></div>
+		</div>
+
+
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-12" id="directions">
+				<div id="directionsBox">
+
+				<h3>How to Play</h3>
+
+				<p id="p1">You will be given a random number at the start of the game.</p>
+
+				<p id="p2">There are four crystals below.  By clicking on a crystal you will add a specific amount of points to the total score.</p>
+
+				<p id="p3">You <span><strong>WIN</strong></span> by matching your total score to the random number. You lose the game if your score exceeds the random number.</p>
+
+				<p id="p4">The value of each crystal is hidden until you click on it.</p>
+
+				<p id="p5">Each time the game is started, the crystal values will reset to a new number.
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+
+		<div class="row">
+			<div col-xs-6>
+				<div id="scoreBox">
+					<p>Wins</p>
+					<p>Losses</p>
+				</div>	
+			</div>
+
+			<div id="random">#</div>
+
+
+			<div col-xs-6>
+				<div id="counterBox">
+					<div id="counterHeading">Your total score is:</div>
+					<div id="countScore">_</div>
+					
+				</div>	
+			</div>
+
+		</div>
+		</div>
+
+
+
+		<div id="gemLine">
+
+		<div id="gemBox">
+			<div id="red"><img src="assets/images/redEmeraldCutTransparentBG.png"></div>
+			<div id="blue"><img src="assets/images/blueEmeraldCutTransparentBG.png"></div>
+			<div id="yellow"><img src="assets/images/yellowEmeraldCutTransparentBG.png"></div>
+			<div id="green"><img src="assets/images/greenEmeraldCutTransparentBG.png">	</div>
+		</div>
+		</div>
+
+
+    <!-- Script -->
+    	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</div>
+</body>
+</html>
