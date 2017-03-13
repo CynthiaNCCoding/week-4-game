@@ -24,66 +24,81 @@
   <div class="jumbotron">
 
 		<div class="row">
-			<div id="headline"><h1>Crystal Collector</h1></div>
+			<div id="headline"><h1>Crystals Collector</h1></div>
 		</div>
 
 
 		<div class="container">
-		<div class="row">
-			<div class="col-sm-12" id="directions">
-				<div id="directionsBox">
+			<div class="row">
+				<div class="col-sm-12" id="directions">
+					<div id="directionsBox">
 
-				<h3>How to Play</h3>
+						<h3>How to Play</h3>
 
-				<p id="p1"><strong><span class="directive">START   </strong></span>You will be given a random number at the start of the game.</p>
+						<p id="p1"><strong><span class="directive">START   </strong></span>You will be given a random number at the start of the game.</p>
 
-				<p id="p2"><strong><span class="directive">GAME PLAY   </strong></span>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to the total score.</p>
+						<p id="p2"><strong><span class="directive">GAME PLAY   </strong></span>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to the total score.</p>
 
-				<p id="p3"><strong><span class="directive">GOAL   </strong></span>You WIN by matching your total score to the random number. You LOSE the game if your score exceeds the random number.</p>
+						<p id="p3"><strong><span class="directive">GOAL   </strong></span>You WIN by matching your total score to the random number. You LOSE the game if your score exceeds the random number.</p>
 
-				<p id="p4">NOTE: The value of each crystal is hidden until you click on it.</p>
+						<p id="p4">NOTE: The value of each crystal is hidden until you click on it.</p>
 
-				<p id="p5"><strong><span class="directive">PLAY AGAIN   </strong></span>Each time the game is started, the crystal values will reset to a new number!
-				</p>
+						<p id="p5"><strong><span class="directive">PLAY AGAIN   </strong></span>Each time the game is started, the crystal values will reset to a new number!
+						</p>
 
-			</div>
-		</div>
-	</div>
+					</div>
+				</div> <!--col-sm-12 end -->
+			</div> <!--row end-->
+		</div> <!--first container end -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div id="scoreBox" class="text-center">
+						<p>Wins: 10 </p>
+						<p>Losses: 10</p>
+					</div>	
+				</div> <!--closes col-sm-3-->
+
+				<div id="numberWithText" class="col-sm-3">
+					<div class="text-center" id="tinyText">Random Number</div>
+					<div class="text-center" id="random">68</div>
+				</div>
 
 
-		<div class="row">
-			<div col-xs-6>
-				<div id="scoreBox">
-					<p>Wins</p>
-					<p>Losses</p>
-				</div>	
-			</div>
+				<div class="col-sm-3">
+					<div id="counterBox">
+						<div class="text-center" id="tinyText" id="counterHeading">Your score</div>
+						<div class="text-center" id="countScore">18</div>
+					</div>	<!--closes #counterBox -->
+				</div><!--closes col-sm-3-->					
+				<div class="col-sm-3">
+					<div id="endGameAlert">
+						<div class="text-center" id="YouWin">You Win!</div>
+						<div class="text-center" id="YouLose">You Lose!</div>
+					</div>	<!--closes #counterBox -->
+				</div><!--closes col-sm-3-->
+			</div> <!--closes row-->
+		</div> <!--closes container-->
 
-			<div id="random">#</div>
 
-
-			<div col-xs-6>
-				<div id="counterBox">
-					<div id="counterHeading">Your total score is:</div>
-					<div id="countScore">_</div>
+			<div id="gemLine" class="container">
+				<div class="row">
+					<div class="col-sm-12">
+				
+						<div id="gemBox">
 					
-				</div>	
-			</div>
-
-		</div>
-		</div>
-
-
-
-		<div id="gemLine">
-
-		<div id="gemBox">
-			<div id="red"><img src="assets/images/redEmeraldCutTransparentBG.png"></div>
-			<div id="blue"><img src="assets/images/blueEmeraldCutTransparentBG.png"></div>
-			<div id="yellow"><img src="assets/images/yellowEmeraldCutTransparentBG.png"></div>
-			<div id="green"><img src="assets/images/greenEmeraldCutTransparentBG.png">	</div>
-		</div>
-		</div>
+							<div id="red"><img src="assets/images/redEmeraldCutTransparentBG.png"></div>
+			
+							<div id="blue"><img src="assets/images/blueEmeraldCutTransparentBG.png"></div>
+			
+							<div id="yellow"><img src="assets/images/yellowEmeraldCutTransparentBG.png"></div>
+			
+							<div id="green"><img src="assets/images/greenEmeraldCutTransparentBG.png"></div>
+						</div> <!--closes #gemBox-->	
+					</div> <!--closes col-sm-12 -->
+				</div> <!--closes row-->
+			</div> <!--closes #gemLine & container-->
 
 
     <!-- Script -->

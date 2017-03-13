@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
     $("#hide").click(function(){
         $("p").hide();
@@ -7,4 +6,3 @@ $(document).ready(function(){
         $("p").show();
     });
 });
-</script>
