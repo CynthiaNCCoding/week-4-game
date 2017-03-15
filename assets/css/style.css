@@ -29,6 +29,7 @@ html {
 
 .jumbotron {
 	border-radius: 175px;
+	border: solid 5px rgba(0, 0, 0, 0.11);
 }
 
 .jumbotron p {
@@ -45,8 +46,8 @@ html {
 	border: solid 2px floralwhite;
 	border-radius: 6px;
 	/* width: 84%; */
-	margin-bottom: 15px;
-	margin-top: -26px;
+	margin-bottom: 25px;
+	margin-top: -27px;
 }
 
 h2 {
@@ -69,6 +70,7 @@ h2 {
 	border-top-left-radius: 56px;
 	border-top-right-radius: 56px;
 	margin-bottom: -6px;
+	margin-top: -11px;
 }
 
 #random {
@@ -141,6 +143,7 @@ img {
 	color: rebeccapurple;
 	/* padding-top: 9px; */
 	padding: 3px;
+	margin-left: -4px;
 }
 
 #tinyText {
@@ -160,6 +163,7 @@ img {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 10px 0;
+	margin-right: -5px;
 	color: rebeccapurple;
 }
 
@@ -171,6 +175,38 @@ img {
 	/* background-color: rgba(255, 192, 203, 0.63); */
 }
 
+#startBox {
+	/*font-family: 'Julius Sans One', sans-serif;*/
+	background-color: rgba(120, 229, 243, 0.64);
+	/* text-align: center; */
+	font-size: 45px;
+	/* justify-content: flex-start; */
+	border: solid 4px floralwhite;
+	border-radius: 10px;
+	border-bottom-right-radius: 54px;
+	padding-right: 10px;
+	padding-right: 10px;
+	padding-bottom: 21px;
+	margin: 10px 0;
+	color: rebeccapurple;
+	font-weight: 500;
+	padding-top: 12px;
+	margin-right: 2px;
+	/* padding-left: 0px; */
+	margin-left: -21px;
+}
+
+#startBox:hover {    
+	-webkit-filter: brightness(80%);
+	filter: brightness(80%); 
+	background-color: #00BC6F;
+}
+
+#startBox:active {
+/*  box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
 #red img {
 	height: 152px;
 	width: 103px;
@@ -179,8 +215,8 @@ img {
 }
 
 #red img:hover {    
-	-webkit-filter: brightness(80%);
-	filter: brightness(80%); 
+	-webkit-filter: brightness(75%);
+	filter: brightness(75%); 
 }
 
 #red img:active {
